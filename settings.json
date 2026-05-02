@@ -1,14 +1,14 @@
 {
     "window.autoDetectColorScheme": false,
     "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
-    "workbench.editor.showTabs": "single",
+    "workbench.editor.showTabs": "multiple",
     "workbench.sideBar.location": "right",
     "workbench.activityBar.orientation": "vertical",
     "workbench.statusBar.visible": true,
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": true,
     "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": true,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "material-product-icons",
     "material-icon-theme.hidesExplorerArrows": false,
@@ -34,7 +34,6 @@
         ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "justify-content: center; padding: 0 !important",
         ".title .monaco-icon-label:after": "margin-right: 0",
         ".monaco-workbench .part.editor > .content .editor-group-container > .title > .label-container > .title-label": "padding-left: 60px",
-        ".title .monaco-icon-label.file-icon": "margin: 0 60px",
         ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #ffaffc 10%, #DA70D6 100%)"
     },
     "custom-ui-style.font.sansSerif": "Dank Mono",
@@ -109,5 +108,5 @@
         "https://ui.shadcn.com": true,
         "https://www.schemastore.org/": true
     },
-    "git.autofetch": true,
+    "git.autofetch": true
 }
