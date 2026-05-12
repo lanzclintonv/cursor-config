@@ -1,6 +1,6 @@
 {
     "window.autoDetectColorScheme": false,
-    "workbench.colorTheme": "Aura Dracula Spirit (Soft)",
+    "workbench.colorTheme": "GitHub Light Colorblind (Beta)",
     "workbench.editor.showTabs": "multiple",
     "workbench.sideBar.location": "right",
     "workbench.activityBar.orientation": "vertical",
@@ -58,11 +58,17 @@
                 "settings": {
                     "fontStyle": "italic"
                 }
+            },
+            {
+                "scope": "keyword.other.dotenv",
+                "settings": {
+                    "foreground": "#FF000000"
+                }
             }
         ]
     },
     "editor.stickyScroll.enabled": false,
-    "editor.colorDecorators": false,
+    "editor.colorDecorators": true,
     "editor.codeLens": true,
     "editor.links": true,
     "editor.matchBrackets": "always",
@@ -86,11 +92,13 @@
     "editor.overviewRulerBorder": true,
     "editor.hideCursorInOverviewRuler": false,
     "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "on",
         "other": "on"
     },
     "editor.suggestOnTriggerCharacters": true,
     "editor.tabCompletion": "on",
-    "editor.snippetSuggestions": "top",
+    "editor.snippetSuggestions": "inline",
     "emmet.triggerExpansionOnTab": true,
     "files.autoSave": "off",
     "update.mode": "default",
@@ -108,5 +116,14 @@
         "https://ui.shadcn.com": true,
         "https://www.schemastore.org/": true
     },
-    "git.autofetch": true
+    "git.autofetch": true,
+    "files.associations": {
+        ".env*": "dotenv",
+        "*.css": "tailwindcss"
+    },
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "cursor.composer.queueMessageDefaultBehavior": "stop-and-send",
+    "cursor.composer.usageSummaryDisplay": "always",
+    "dotenv.enableAutocloaking": true,
 }
+
